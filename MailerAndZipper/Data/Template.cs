@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace MailerAndZipper
+{
+    public class Template
+    {
+        [Key]
+        public int Id { get; set; }
+        public string Body { get; set; }
+        [InverseProperty("MailTemplate")]
+        public virtual ICollection<Mail> Mails { get; set; }
+
+    }
+}
