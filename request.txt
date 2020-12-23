@@ -1,0 +1,18 @@
+{
+   "info":{
+      "to":"enesaydostr@gmail.com",
+      "subject":"cv"
+   },
+   "attachments":[
+      {
+         "filename":"enesaydos",
+         "filetype":".pdf",
+         "base64":""
+      },
+      {
+         "filename":"enesaydos",
+         "filetype":".jpeg",
+         "base64":""
+      }
+   ]
+}
