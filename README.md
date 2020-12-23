@@ -13,5 +13,9 @@ watch the video in the link. (Youtube)
 
 ### Step - 3
 ```
-request.txt for Postman, testdb.sql for database in SQL Server Management Studio. Be prepared and run!
+request.txt for Postman, 
+testdb.sql for database in SQL Server Management Studio,
+template.txt for the body template of the mail.
+Be prepared and run!
+
 ```
