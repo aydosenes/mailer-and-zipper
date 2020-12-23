@@ -1,0 +1,52 @@
+<html>
+   <meta charset="utf-8">
+   <body>
+      <div class="container">
+         <p class="center">Mr. Aydos,
+            <br>
+         <p class="center">If you want to download the files as a zip file, click the link below.
+            <br><br><br>
+			<a target="_blank" href="#Link#"  class="button button1">Zip Downloader </a>
+      </div>
+   </body>
+   <head>
+      <style>
+         .center {
+         text-align: center
+         }
+         .button 
+         {
+         border: none;
+         color: white;
+         padding: 15px 15px;
+         text-align: center;
+         text-decoration: none;
+         font-size: 16px;
+         margin: auto;
+         cursor: pointer;
+         display: inline-block;
+         align-items: center;
+         }
+         .button1 {background-color: #4CAF50;} /* Green */
+         img {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         }
+         .container {
+         position: relative;
+         max-width: 800px; /* Maximum width */
+         margin: 0 auto; /* Center it */
+         }
+         .container .content {
+         position: absolute;/* Position the background text */
+         bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+         background: rgb(0, 0, 0); /* Fallback color */
+         background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+         color: #f1f1f1; /* Grey text */
+         width: 50%; /* Full width */
+         padding: 10px; /* Some padding */
+         }
+      </style>
+   </head>
+</html>
