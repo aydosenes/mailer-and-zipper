@@ -13,5 +13,5 @@ watch the video in the link. (Youtube)
 
 ### Step - 3
 ```
-be prepared the environment for the running!
+request.txt for Postman, testdb.sql for database in SQL Server Management Studio. Be prepared and run!
 ```
