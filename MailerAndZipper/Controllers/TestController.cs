@@ -114,9 +114,8 @@ namespace MailerAndZipper.Controllers
                 }
                 SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com", 587);
                 SmtpServer.UseDefaultCredentials = false;
-                //SmtpServer.Credentials = new NetworkCredential("enesaydostr@gmail.com", "your password");
                 #region SmtpServer.Credentials
-                SmtpServer.Credentials = new NetworkCredential("enesaydostr@gmail.com", "awaiter301715+");
+                SmtpServer.Credentials = new NetworkCredential("*********@gmail.com", "*********");
                 #endregion
                 SmtpServer.EnableSsl = true;
                 SmtpServer.Send(mail);
